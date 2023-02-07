@@ -149,18 +149,97 @@
 /* Services */
 
 .services {
-
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
 .services h2 {
+    font-size: 2em;
     text-align: center;
+}
+
+
+.icon {
+    width: 13%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(124, 138, 217);
+    margin-inline: 10px;
+  }
+  
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: blue;
+  }
+
+  .slogant {
+    width: 76%;
+    text-align: center;
+  }
+
+
+  .main-feature {
     border: 1px solid black;
-}
+  }
+
+  .main-feature img {
+    border: 1px solid red;
+    width: 85%;
+  }
 
 
-.dot {
-    text-decoration-line: line-through;;
-}
 
+  .service-main {
+    justify-content: center;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 40%;
+    border: 2px solid blue;
+    margin-top: 30px;
+  }
+
+
+
+  .skill {
+    width: 100%;
+    height: 85px;
+    padding-top: 8px;
+    border: 1px solid rgb(213, 62, 62);
+    justify-content: space-between;
+  }
+
+
+  .skill-icon {
+    display: flex;
+    justify-content: center;
+    width: 18%;
+    border-radius: 50%;
+    align-items: center;
+    border: 1.5px solid rgb(124, 138, 217);
+  }
+
+  .skill-text {
+    width: 77%;
+  }
+  .skill-text p {
+    line-height: 1;
+  }
+
+  h3 {
+    margin: 0;
+  }
+  
 
 }
