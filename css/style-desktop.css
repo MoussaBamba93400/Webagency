@@ -1,0 +1,166 @@
+
+
+/*  DESKTOP  */
+/* Resolution de plus de 1150px */
+@media screen and (min-width:992px) {
+
+    body {
+        overflow-x: hidden;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .list-none {
+        list-style-type: none;
+    }
+
+    .ft-blue {
+       color: rgb(110, 125, 212);
+    }
+     
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+    .d-flex {
+        display: flex;
+    }
+
+    .justify-center {
+        justify-content: center;
+    }
+
+    .justify-space-bt {
+        justify-content: space-between;
+    }
+
+    .pos-relat {
+        position: relative;
+    }
+
+
+    header {
+        padding-inline: 15%;
+        height: 60px;
+    }
+
+    .logo img {
+        width: 70%;
+        margin-top: 5px;
+    }
+
+
+    nav {
+        padding: 0px;
+    }
+
+    nav ul {
+        margin: 0px;
+        padding: 0;
+    }
+
+    nav li { 
+       padding: 15px 10px;
+       font-size: 80%;
+       transition: ease 200ms;
+    }
+
+    nav li:hover {
+        cursor: pointer;
+        font-weight: bold;
+        border-top: 4px solid  rgb(110, 125, 212);
+    }
+
+
+    /* Bannier */
+
+
+
+    .banner {
+        height: 420px;
+        background-image: url('/images/bg1.jpg');
+        background-size: 100%;
+    }
+
+    .banner-text {
+        color: white;
+        position: relative;
+        top: 70px;
+        left: 8%;
+        width: fit-content;
+    }
+
+    .banner-text h1 {
+        margin: 0px;
+        font-size: 1.6em;
+    }
+
+    .banner-text p {
+        font-size: 0.9em;
+        margin-top: 5px;
+        margin-bottom: 7px;
+    } 
+
+    .banner-text button {
+        color: white;
+        background-color: rgb(137, 149, 214);
+        padding: 2% 3% 2% 3%;
+        border-radius: 3px;
+        border: none;
+    }
+
+    .banner-text button:hover {
+        cursor: pointer;
+        background-color: rgb(124, 138, 217);
+    }
+
+
+
+
+    .arrows {
+        top: 62px;
+    }
+
+
+    .arrows span {
+        border-radius: 50%;
+        padding: 8px;
+        color: white;
+        background-color: rgba(0,0,0,.5)
+    }
+    
+    .left {
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 10px;
+        left: -12px;
+    }
+
+    .right {
+        transform: rotate(90deg);
+        position: absolute;
+        top: 50%;
+        right: -12px;
+    }
+
+
+/* Services */
+
+.services {
+
+}
+
+.services h2 {
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+.dot {
+    text-decoration-line: line-through;;
+}
+
+
+}
