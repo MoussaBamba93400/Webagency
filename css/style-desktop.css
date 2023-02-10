@@ -85,7 +85,7 @@
     .banner {
         height: 420px;
         background-image: url('/images/bg1.jpg');
-        background-size: 100%;
+        background-size: 100% 100%;
     }
 
     .banner-text {
